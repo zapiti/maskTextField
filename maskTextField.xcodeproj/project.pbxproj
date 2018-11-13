@@ -14,6 +14,8 @@
 		D814DA3E2173EF3E00E0863E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D814DA3C2173EF3E00E0863E /* LaunchScreen.storyboard */; };
 		D814DA492173EF3E00E0863E /* maskTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D814DA482173EF3E00E0863E /* maskTextFieldTests.swift */; };
 		D814DA542173EF3E00E0863E /* maskTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D814DA532173EF3E00E0863E /* maskTextFieldUITests.swift */; };
+		D814DA622173EFCD00E0863E /* TextFieldMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D814DA612173EFCD00E0863E /* TextFieldMask.swift */; };
+		D814DA652173EFF900E0863E /* MaskExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D814DA642173EFF900E0863E /* MaskExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D814DA4F2173EF3E00E0863E /* maskTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maskTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D814DA532173EF3E00E0863E /* maskTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maskTextFieldUITests.swift; sourceTree = "<group>"; };
 		D814DA552173EF3E00E0863E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D814DA612173EFCD00E0863E /* TextFieldMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMask.swift; sourceTree = "<group>"; };
+		D814DA642173EFF900E0863E /* MaskExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		D814DA322173EF3D00E0863E /* maskTextField */ = {
 			isa = PBXGroup;
 			children = (
+				D814DA632173EFDD00E0863E /* component */,
 				D814DA332173EF3D00E0863E /* AppDelegate.swift */,
 				D814DA352173EF3D00E0863E /* ViewController.swift */,
 				D814DA372173EF3D00E0863E /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				D814DA552173EF3E00E0863E /* Info.plist */,
 			);
 			path = maskTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		D814DA632173EFDD00E0863E /* component */ = {
+			isa = PBXGroup;
+			children = (
+				D814DA612173EFCD00E0863E /* TextFieldMask.swift */,
+				D814DA642173EFF900E0863E /* MaskExtension.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D814DA362173EF3D00E0863E /* ViewController.swift in Sources */,
+				D814DA622173EFCD00E0863E /* TextFieldMask.swift in Sources */,
 				D814DA342173EF3D00E0863E /* AppDelegate.swift in Sources */,
+				D814DA652173EFF900E0863E /* MaskExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
